@@ -1,0 +1,5 @@
+### Embeddings from Raw Text
+POST http://localhost:7071/api/embeddings
+Content-Type: application/json
+
+{"RawText": "Enter raw text here for embedding generation."}
