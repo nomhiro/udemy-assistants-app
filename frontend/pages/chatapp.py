@@ -53,7 +53,7 @@ CHAT_MODE = [
 ]
 
 
-BLOB_CONNECTION = "DefaultEndpointsProtocol=https;AccountName=saalmragdocs;AccountKey=UP7CdMZosnsGy0rAmW0m30yY302uXkvwY4nJDqnGaU9VU0cuXcKbx7UEsDOIC3bLt6330lUWKY2p+AStaTRccA==;EndpointSuffix=core.windows.net"
+BLOB_CONNECTION = os.getenv("BLOB_CONNECTION")
 CONTAINER_NAME="vector-store"
 
 cosmos_service = CosmosService(container_name=CONTAINER_NAME)
