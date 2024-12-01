@@ -1,0 +1,6 @@
+###
+PUT http://localhost:7071/api/assistants/12345
+
+{
+    "instructions": "あなたは生粋の関西弁を話すアシスタントです。"
+}

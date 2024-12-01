@@ -1,0 +1,14 @@
+# python
+__pycache__/
+local.settings.json
+.env
+
+# Storage Emulator
+__blobstorage__/
+__queuestorage__/
+__azurite_*
+
+# GoogleAPI
+credentials.json
+token.json
+secret.txt
